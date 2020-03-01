@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DiverseFunksjoner">
+      <HintPath>..\..\DiverseFunksjoner\DiverseFunksjoner\bin\Debug\DiverseFunksjoner.dll</HintPath>
+    </Reference>
+    <Reference Include="FilFunksjoner">
+      <HintPath>..\..\FilFunksjoner\FilFunksjoner\bin\Debug\FilFunksjoner.dll</HintPath>
+    </Reference>
+    <Reference Include="JaNeiVindu">
+      <HintPath>..\..\JaNeiVindu\JaNeiVindu\bin\Debug\JaNeiVindu.dll</HintPath>
+    </Reference>
+    <Reference Include="Parser">
+      <HintPath>..\..\Parser\Parser\bin\Debug\Parser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
